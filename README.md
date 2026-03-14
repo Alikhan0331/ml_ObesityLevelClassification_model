@@ -23,8 +23,6 @@ I compared several classic multiclass classifiers, each wrapped in a `Pipeline(p
 ## Evaluation
 Main metric: **accuracy** – the fraction of correctly predicted obesity levels. 
 
-For each model, I also use:
-
 LogisticRegression - 0.641378    
 RandomForest       - 0.901975    
 GradientBoosting   - 0.906551     
@@ -36,7 +34,7 @@ GradientBoosting   - 0.906551
 ## How to Run
 1. Download the dataset from Kaggle (e.g.):  
    https://www.kaggle.com/datasets/fatemehmehrparvar/obesity-levels or  
-   https://www.kaggle.com/datasets/sujithmandala/obesity-classification-dataset [web:107][web:110]
-2. Save the CSV as `obesity.csv` inside
+   https://www.kaggle.com/datasets/sujithmandala/obesity-classification-dataset
+2. Save the CSV as `obesity.csv`
 3. Install dependencies and ipynb file
 4. Run the ipynb file
